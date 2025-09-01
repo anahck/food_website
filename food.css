@@ -1,0 +1,64 @@
+/* ✅ Fix nav bar to top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Add padding to page so content isn't hidden under navbar */
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    background-image: url(https://retaildesignblog.net/wp-content/uploads/2015/07/Home-Park-Food-Store-by-TRIAD-China-Harbin-China-03.jpg);
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 110vh;
+}
+
+/* Style nav links */
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 1em 2em;
+    background-image: url(https://retaildesignblog.net/wp-content/uploads/2015/07/Home-Park-Food-Store-by-TRIAD-China-Harbin-China-03.jpg);
+    text-align: center;
+    color: #333;
+    margin-top: auto;
+}
+
+main section {
+    flex: 1;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 2em;
+}
